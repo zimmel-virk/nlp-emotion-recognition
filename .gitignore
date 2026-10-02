@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Dataset
+data/*.csv
+data/*.parquet
+data/*.json
+!data/README.md
+
+# GloVe / large embeddings
+glove.6B.zip
+glove.6B.*.txt
+
+# Generated models
+*.keras
+*.h5
+*.joblib
+models/
+checkpoints/
+
+# Generated results
+results/generated/
+
+# Logs / temp
+*.log
+tmp/

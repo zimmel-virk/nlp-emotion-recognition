@@ -1,0 +1,12 @@
+# Versions explicitly recorded in the coursework report
+numpy==1.26.4
+tensorflow==2.16.1
+ml-dtypes==0.3.2
+
+# Libraries used in the code appendix; exact versions were not recorded in the report
+pandas
+matplotlib
+seaborn
+scikit-learn
+nltk
+requests

@@ -1,0 +1,5 @@
+Model,Accuracy
+Naive Bayes,0.8487
+Linear SVM,0.8989
+Simple Neural Network,0.9002
+BiLSTM + GloVe,0.915
